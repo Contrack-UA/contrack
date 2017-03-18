@@ -4,7 +4,7 @@
 @Config =
 
 	# Basic Details
-	name: 'My App'
+	name: 'Contrack'
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
@@ -21,10 +21,10 @@
 
 	# Username - if true, users are forced to set a username
 	username: false
-	
+
 	# Localisation
 	defaultLanguage: 'en'
-	dateFormat: 'D/M/YYYY'
+	dateFormat: 'DD/MM/YYYY'
 
 	# Meta / Extenrnal content
 	privacyUrl: 'http://meteorfactory.io'
@@ -32,7 +32,7 @@
 
 	# For email footers
 	legal:
-		address: 'Jessnerstrasse 18, 12047 Berlin'
+		address: 'Bogota, Colombia'
 		name: 'Meteor Factory'
 		url: 'http://benjaminpeterjones.com'
 
@@ -41,18 +41,11 @@
 
 	socialMedia:
 		facebook:
-			url: 'http://facebook.com/benjaminpeterjones'
+			url: 'https://www.facebook.com/jose.tamura.1'
 			icon: 'facebook'
 		twitter:
 			url: 'http://twitter.com/BenPeterJones'
 			icon: 'twitter'
-		github:
-			url: 'http://github.com/yogiben'
-			icon: 'github'
-		info:
-			url: 'http://meteorfactory.io'
-			icon: 'link'
-
 	#Routes
 	homeRoute: '/'
 	publicRoutes: ['home']
