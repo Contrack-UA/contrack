@@ -1,5 +1,7 @@
 /* Views */
-
+h1{
+  font-weight: bold;
+}
 .home-layout nav.navbar {
   background: #d9d9d9;
   width: 100%;
