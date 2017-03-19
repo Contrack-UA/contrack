@@ -7,7 +7,7 @@
 }
 
 .home-layout nav.navbar .link {
-  color: white;
+  color: black !important;
 }
 
 .home-layout nav.navbar .link:hover {
@@ -108,4 +108,12 @@
 
 .home-layout section#final .btn {
   margin: 20px auto 30px;
+}
+
+
+
+
+
+.navbar{
+  color: black !important;
 }
