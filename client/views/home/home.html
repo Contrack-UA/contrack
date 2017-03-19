@@ -28,7 +28,7 @@
                     <div class="col-lg-6 col-sm-6">
                     </div>
                     <div class="col-lg-6 col-sm-6">
-                        <h1>Esta plataforma esta diseñada para los colombianos.</h1>
+                        <h1>Esta plataforma esta diseñada para uso de todos los colombianos.</h1>
                         <h2 class="hidden-xs">Analiza, descubre y denuncia</h2>
                         {{#if User}}
                         <a href="{{pathFor 'dashboard'}}" class="btn btn-success"><i class="fa fa-dashboard"></i> {{_ "dashboard"}}</a>
@@ -56,7 +56,7 @@
             <div class="row" id="icon-row">
                 <div class="col-md-3 wow fadeInUp animated" data-wow-delay="0.4s">
                     <div class="iconbox">
-                        <i class="fa fa-plane fa-3x"></i>
+                        <i class="fa fa-folder fa-3x"></i>
                     </div>
                     <h1 class="icntitle">1. Registros</h1>
                     <p class="icnp">Tenemos registro de todos los contratos de obras públicas en Colombia,
@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-md-3 wow fadeInUp animated" data-wow-delay="0.8s">
                     <div class="iconbox">
-                        <i class="fa fa-bolt fa-3x"></i>
+                        <i class="fa fa-refresh fa-3x"></i>
                     </div>
                     <h1 class="icntitle">2. Actualización de estado</h1>
                     <p class="icnp">Exigir al interventor que las facturas de soporte entregadas por las
@@ -74,9 +74,9 @@
                 </div>
                 <div class="col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
                     <div class="iconbox">
-                        <i class="fa fa-check fa-3x"></i>
+                        <i class="fa fa-search fa-3x"></i>
                     </div>
-                    <h1 class="icntitle">3. Analisis</h1>
+                    <h1 class="icntitle">3. Análisis</h1>
                     <p class="icnp">Analizar y validar los soportes de compra (las facturas asociadas a las
                        compras de materiales, etc) para evitar que las facturas sean falsificadas.
                        Asegurar que el precio de cada ítem corresponda a su precio real
@@ -111,16 +111,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h3>{{_ "section_ipad_header"}}</h3>
-                    <p>{{_ "section_ipad_text"}}</p>
+                    <h3>¿Quienes somos?</h3>
+                    <p>4 estudiantes de la universidad de los Andes que
+                    buscamos un mejor país </p>
                     <p class="text-center">
-                    <a href="{{Config.about}}" target="_blank" class="btn btn-success">
-                    {{_ "section_ipad_btn"}}
-                    </a>
+                    <li>
+                      <ul>Esteban Galán Zambrano</ul>
+                      <ul>Margarita Gómez Ballén</ul>
+                      <ul>Nicolás Gómez Gonzales</ul>
+                      <ul>Jose Gabriel Tamura Lara </ul>
+                    </li>
+                    <br>
                     </p>
                 </div>
                 <div class="col-sm-6">
-                    <img id="ipad" src="/img/ipad.png" alt="" class="wow animated fadeInRight" data-wow-delay="1s">
+                    <img id="ipad" src="/img/us.png" alt="" class="wow animated fadeInRight" data-wow-delay="1s">
                 </div>
             </div>
         </div>
@@ -130,14 +135,11 @@
             <div class="row">
                 <div class="col-md-4 text-center wow fadeInDown animated" data-wow-delay="0.8s">
                     <h3>
-                    {{_ "final_text"}}
+                    Trabajamos arduamente por una Colombia más honesta y mejor...
                     </h3>
-                    <div class="text-center">
-                        <a class="btn btn-primary" href="{{pathFor 'atSignUp'}}">{{_ "final_cta"}}</a>
-                    </div>
                 </div>
                 <div class="col-md-8  wow fadeInUp animated">
-                    <img src="img/screenshot.png" class="img-responsive wow" data-wow-delay="0.6s" alt="picture">
+                    <img src="img/colombia.png" class="img-responsive wow" data-wow-delay="0.6s" alt="picture">
                 </div>
             </div>
         </div>
